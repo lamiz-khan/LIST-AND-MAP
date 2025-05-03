@@ -1,4 +1,5 @@
 void main(){
-    List names = ["lamiz", "sheri", "ibrahim", "nadir", "waqar zaka"];
-    print (names);
+    List days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+    
+    print(days[6]); // or print(days.last);
 }
