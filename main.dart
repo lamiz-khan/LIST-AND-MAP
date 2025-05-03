@@ -1,15 +1,6 @@
 void main() {
-  List<String> lab_items = [
-    "computer",
-    "table",
-    "chair",
-    "sir",
-    "peon",
-    "books",
-  ];
-  print("first list = $lab_items");
-
-  var Rev = List.of(lab_items.reversed);
-  print("reverse list = $Rev");
-  print("first list again = $lab_items");
+  List<int> num1 = [4, 66, -43, 50, -1];
+  print("original list = $num1");
+  var positive = num1.where((num1) => num1 >= 0);
+  print("positive list of = $positive");
 }
