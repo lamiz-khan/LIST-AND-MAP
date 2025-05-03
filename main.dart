@@ -1,5 +1,5 @@
 void main(){
-    List days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+    List student1 = ["anus", "10th", "19252082", "A+", "85%"];
     
-    print(days[6]); // or print(days.last);
+    print(student1);
 }
