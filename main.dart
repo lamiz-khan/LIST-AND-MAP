@@ -1,11 +1,9 @@
 void main() {
-  Map car = {"brand": "toyota", "color": "red", "isSedan": true};
+  Map user = {"name": "Alice", "isActive": true, "isAdmin": true};
 
-  print("car details = $car");
-
-  if (car["isSedan"] == true && car["color"] == "red") {
-    print("MATCH");
+  if (user["isActive"] == true && user["isAdmin"] == true) {
+    print("ACTIVE ADMIN");
   } else {
-    print("NO MATCH");
+    print("NOT AN ACTIVE ADMIN");
   }
 }
