@@ -39,7 +39,7 @@ void main() {
   print('After sort(): $numbers');
 
   // 10. forEach()
-  print('REVERSE METHODS:');
+  print('REVERSE METHODS = ');
   var Rev = List.of(numbers.reversed);
   print(Rev);
 }
