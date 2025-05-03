@@ -1,12 +1,11 @@
 void main() {
-  List<String> usersEligibility = [
-    "John",
-    "Alice",
-    "eligible",
-    "Mike",
-    "Sarah",
-    "Tom",
-  ];
-  usersEligibility.removeWhere((x) => x == 'eligible');
-  print(usersEligibility);
+  Map car = {"brand": "toyota", "color": "red", "isSedan": true};
+
+  print("car details = $car");
+
+  if (car["isSedan"] == true && car["color"] == "red") {
+    print("MATCH");
+  } else {
+    print("NO MATCH");
+  }
 }
